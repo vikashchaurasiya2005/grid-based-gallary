@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.section {
+  padding: 100px 20px;
+  height: 100vh;
+  border-bottom: 2px solid #ccc;
+}
+
+#section1 {
+  background-color: #f4f4f4;
+}
+
+#section2 {
+  background-color: #e2e2e2;
+}
+
+#section3 {
+  background-color: #d1d1d1;
+}
